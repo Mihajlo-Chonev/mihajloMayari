@@ -1,4 +1,4 @@
-# BradyBot
+# MihajloMayari
 
 ## Build
 
