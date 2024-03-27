@@ -765,7 +765,9 @@ public class mayari extends AIWithComputationBudget {
         //return  .size()
         //return 4;
     }
-    
+
+
+        // should be more efficient!
     void basesAction() {
         final UnitType workerType = _utt.getUnitType("Worker");
         long activeProductionCount = _bases.stream().filter(this::isBaseBusy).count();
